@@ -34,3 +34,16 @@ what's the difference betwn the DOMContentLoaded and load event triggers?
 DOMContentLoaded is when the initial HTML document has been loaded and parsed, without waiting for styles sheets, images, etc. 
 load event is fired when a resource and all its dependenceis are triffered. 
 both wait for scripts. 
+
+What is the time-complexity of heap sort? 
+
+nlogn 
+
+building a heap takes n and the "sort "down phase, which repeatedly extracts takes nlogn" 
+heapify by itself takes logn time 
+
+What are the steps for Heap sort? 
+
+1. Build a max heap from all of our data using a build max heap function 
+2. once the largest item is at the root node, and every parent node is larger than its children, swap the largest value with th eitem at the ned of the heap 
+3. the right item might be in the right place, but probbaly not, so move the node to the righ tplace using the heapify funciton. 
