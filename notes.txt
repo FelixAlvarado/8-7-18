@@ -1,0 +1,26 @@
+what is the formula for getting the left child of a Heap root node? Right child? 
+
+if the parent node is index i: 
+left childe: 2i + 1 
+right child: 2i + 2 
+
+what is a prioriy queue? 
+
+A queue data structure with some addition properties: 
+1. every item has a priority associated with it- usually an integer 
+2. an item with a high priority is dequeued before an item with a low priority 
+3. two items with an equal priority are dequeued based on the order in the queue. 
+
+What type of data structure might we use to implement a heap? 
+
+The most interesting way oof doing it is with an array. 
+
+extra info: 
+adding/removing is logn like a binary tree 
+accessing min/max is contant time 
+
+what are the contraints of a heap? 
+
+min heap: parent must be of smaller value than child node. 
+
+max heap: parent must be of larger value than child nodes 
