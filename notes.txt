@@ -24,3 +24,7 @@ what are the contraints of a heap?
 min heap: parent must be of smaller value than child node. 
 
 max heap: parent must be of larger value than child nodes 
+
+what is an xmlhttprequest? 
+
+A browser build in javascript object that inteacts with servers. you can retrieve data from a url without having to do a full page refresh. 
