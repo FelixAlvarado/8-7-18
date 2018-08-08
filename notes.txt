@@ -28,3 +28,9 @@ max heap: parent must be of larger value than child nodes
 what is an xmlhttprequest? 
 
 A browser build in javascript object that inteacts with servers. you can retrieve data from a url without having to do a full page refresh. 
+
+what's the difference betwn the DOMContentLoaded and load event triggers? 
+
+DOMContentLoaded is when the initial HTML document has been loaded and parsed, without waiting for styles sheets, images, etc. 
+load event is fired when a resource and all its dependenceis are triffered. 
+both wait for scripts. 
